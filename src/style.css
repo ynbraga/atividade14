@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('pexels-drift-shutterbug-2085998.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.corpo {
+    height: 60vh;
+    color: white;
+}
+
+h1 {
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background: transparent;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid white;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color:  #ffffff;
+    font-weight: 600;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
